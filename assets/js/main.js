@@ -14,25 +14,20 @@ $(function() {
 
 
 		setTimeout(function() {
-			
 			var counter = 0;
-      $('.site-mobile-menu .has-children').each(function(){
+      		$('.site-mobile-menu .has-children').each(function(){
         var $this = $(this);
-        
+
         $this.prepend('<span class="arrow-collapse collapsed">');
-
         $this.find('.arrow-collapse').attr({
-          'data-toggle' : 'collapse',
-          'data-target' : '#collapseItem' + counter,
+          'data-bs-toggle' : 'collapse',
+          'data-bs-target' : '#collapseItem' + counter,
         });
-
         $this.find('> ul').attr({
           'class' : 'collapse',
           'id' : 'collapseItem' + counter,
         });
-
         counter++;
-
       });
 
     }, 1000);
