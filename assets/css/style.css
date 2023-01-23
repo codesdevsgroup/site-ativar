@@ -476,6 +476,14 @@ a:hover {
 }
 /* banners */
 
+#banner-1,
+#banner-2,
+#banner-3,
+#banner-4 {
+  margin: 160px auto;
+}
+
+
 #banner-1 h2,
 #banner-2 h2,
 #banner-3 h2,
@@ -494,4 +502,48 @@ a:hover {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
+}
+
+#mobile_app {
+  background: var(--primary-color);
+  height: 587px;
+  color: #F7F7F7;
+}
+/* equipe */
+#equipe h2 {
+  color: var(--primary-color);
+  
+}
+
+
+/* contact */
+#contact{
+  margin: 160px auto;
+  color: #F7F7F7;
+}
+#contact .card {
+  background: var(--primary-color);
+  width: 1127.49px;
+  height: 537.38px;
+  margin: auto;
+}
+#contact .text {
+  margin-top: 110px;
+  margin-left: 60px;
+  width: 541px;
+  height: 250px;
+}
+#contact .img {
+  
+}
+
+footer{
+  background: var(--primary-color);
+  height: 333px;
+  padding: 60px 0;
+  color: #F7F7F7;
+}
+
+footer .grid p {
+  margin-bottom: 4px;
 }
