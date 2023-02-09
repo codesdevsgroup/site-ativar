@@ -134,6 +134,19 @@ a {
   height: 587px;
   color: #F7F7F7;
 }
+/* cards */
+
+.card-items{
+  align-items: center;
+  background-color: #fff;
+  width: 200px;
+  height: 220px;
+  border-radius: 5%;
+  margin-inline: auto;
+  margin-top: 60px;
+  padding: 15px;
+}
+
 /* equipe */
 #equipe {
   padding-top: 80px;
